@@ -6,7 +6,7 @@ define([
 ], function (require, $, Defaults, Utils) {
   function Options (options, $element) {
     this.options = options;
-
+//option一个是传入的 一个是默认的    一个是这个函数中添加的 把element属性中的参数添加到这里  prop 和attr有什么区别呢
     if ($element != null) {
       this.fromElement($element);
     }
