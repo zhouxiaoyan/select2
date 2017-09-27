@@ -50,7 +50,8 @@ define([
              AttachBody, MinimumResultsForSearch, SelectOnClose, CloseOnSelect,
 
              EnglishTranslation) {
-  //这个默认的的option  中引入了其他模块的内容。定义了option.datapter,selectionadpater等适配属性，重点是resultadpater
+  //这个默认的的option  中引入了其他模块的内容。定义了option.datapter,selectionadpater等适配属性，重点是resultadpater。比如说dataAdapter有好几个
+  //最后还是根据参数来决定要用哪一个
   function Defaults () {
     this.reset();
   }
